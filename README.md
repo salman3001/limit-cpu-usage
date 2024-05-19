@@ -12,6 +12,7 @@ please note that this code requires linux operating system. if you are using win
 - clone this repository
 - make sure you have node installed
 - run `npm install`
+- run `chmod +x start_worker.sh` <-- important
 - to start conversion without any cpu limit apply run `node worker.js`
 
 - to start conversion with 50% cpu limit `node main.js 50`
